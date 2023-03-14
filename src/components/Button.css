@@ -1,0 +1,31 @@
+:root {
+  /* a few variables */
+  --selectionBgColor: #0062ff;
+  --selectionHoverColor: #057bfa;
+  --selectionWidth: 15%;
+  --selectionTransTime: 0.3s;
+}
+
+.btn {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  transition: var(--selectionTransTime);
+  /* button box options */
+  background-color: var(--selectionBgColor);
+  border: 2px solid #0062ff;
+  border-radius: 8px;
+  margin-right: 10px;
+  /* text options */
+  font-family: "Arial Black";
+  font-size: 20px;
+  font-stretch: auto;
+  color: white;
+  width: fit-content;
+}
+
+.btn:hover {
+  transition: var(--selectionTransTime);
+  background-color: var(--selectionHoverColor);
+  color: rgb(82, 235, 255);
+}

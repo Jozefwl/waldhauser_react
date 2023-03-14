@@ -1,0 +1,17 @@
+.title{
+    color:black;
+    font-size: 25px;
+    font-family: "Lucida Console";
+}
+
+.bluebox { /* main box */
+    background-color: #0062ff;
+    text-align: center;
+    margin: -8px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Lucida console';
+    color:white;
+    font-size: 32px;
+}
