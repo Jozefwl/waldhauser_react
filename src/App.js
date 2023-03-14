@@ -24,7 +24,6 @@ const App = () => {
         .
       </noscript>
       <Socialsbar></Socialsbar>
-      
     </>
   );
 };
