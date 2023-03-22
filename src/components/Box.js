@@ -1,6 +1,6 @@
 import "./Box.css";
 
-const Box = ({text, smalltext}) => {
+const Box = ({text, smalltext},{children}) => {
     return(
         <div className="box">
             <p>
@@ -9,8 +9,8 @@ const Box = ({text, smalltext}) => {
             <p id="smaller">
                 {(smalltext)}
             </p>
-           
-        </div>
+           {children}
+        </div>       
     )
 }
 

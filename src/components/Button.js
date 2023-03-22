@@ -1,14 +1,14 @@
 import "./Button.css"
-
+import { Link } from 'react-router-dom'
 
 const Button = ({text, link}) => {
     /* These 'variables' ale called props */ 
     return (
-        <a href={(link)}>
+        <Link to={(link)}>
             <button type="button" className="btn">
                 {(text)}
             </button> 
-        </a>
+        </Link>
     )
 }
 

@@ -2,11 +2,10 @@ import "./Title.css";
 import { typeWriter } from "./Typewriter";
 import { useEffect } from "react";
 
-const Title = () => {
+const Title = (input) => {
   useEffect(() => {
-    typeWriter();
+    typeWriter(input.text);
   });
-
   return (
     <div className="bluebox">
       <p id="typing"></p>

@@ -8,7 +8,7 @@ import Socialsbar from "./components/Socialsbar";
 const App = () => {
   return (
     <>
-      <Title></Title>
+      <Title text=".waldhauser_"></Title>
       <Navbar></Navbar>
       <Box
         text="Welcome!"

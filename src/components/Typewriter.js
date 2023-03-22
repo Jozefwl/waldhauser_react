@@ -1,6 +1,5 @@
 var i = 0;
-var text = ".waldhauser_"; //string to 'write'
-var speed = 80; //delay in ms
+var speed = 20; //delay in ms
 
 function sleep() {
   return new Promise((resolve) => {
@@ -9,7 +8,7 @@ function sleep() {
     }, speed);
   });
 }
-async function typeWriter() {
+async function typeWriter(text) {
   //async function https://javascript.info/async-await
   for (i = 0; i < text.length; i++) {
     //iterates through entire string length
