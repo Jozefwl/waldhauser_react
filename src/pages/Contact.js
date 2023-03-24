@@ -1,26 +1,27 @@
 import React from "react";
 import Title from "../components/Title";
 import Navbar from "../components/Navbar";
-import BoxBlk from "../components/BoxBlack";
 import Socialsbar from "../components/Socialsbar";
-import BoxWht from "../components/BoxWhite";
+import BoxClr from "../components/BoxColor";
 
 function Contact() {
   return (
     <>
       <Title text=".contact_"></Title>
       <Navbar></Navbar>
-      <BoxWht>
+      <BoxClr color="white">
+        <p>
         <h1>Contacts</h1>
         <Socialsbar></Socialsbar>
         <p>Please contact me using LinkedIn, or prefferably</p>
         <p>
           use the <b>form below:</b>
         </p>
-      </BoxWht>
+        </p>
+      </BoxClr>
 
-      <BoxBlk>
-        <h5 class="shadow">Please use the following form:</h5>
+      <BoxClr color="grey">
+        <h2 class="shadow">Please use the following form:</h2>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeF6gq1Sw7yoVGlxF35fUjzsLqo5WPD671Ll1PMDiACbluRpQ/viewform?embedded=true"
           width="700"
@@ -30,7 +31,7 @@ function Contact() {
         >
           Loading...
         </iframe>
-      </BoxBlk>
+      </BoxClr>
     </>
   );
 }

@@ -1,0 +1,44 @@
+.aboutbox {
+    float: left;
+    background-color: #ffffff;
+    width: 45%;
+    text-align: left;
+    text-indent: 5%;
+    font-size: 24px;
+    font-style: bold;
+    font-family: 'Baskerville';
+    padding: 1px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    /* source: https://getcssscan.com/css-box-shadow-examples */
+  
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 8px;
+    background-image: url(../images/rock_bg.jpg);
+    background-repeat: repeat;
+  }
+
+  h3{
+    font-family:'Helvetica';
+  }
+
+  .photo {
+    float: right;
+    width: 35%;
+    margin-top: 2.4%
+
+  }
+
+  .wrapper {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24%;
+   
+  }
