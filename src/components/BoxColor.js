@@ -2,16 +2,16 @@ import "./Box.css";
 
 const BoxClr = ({color, children}) => {
     let Colorpicker = (colour) =>{
-    if(colour == "white"){
+    if(colour === "white"){
         return("boxWht");
     }
-    if(colour == "black"){
+    if(colour === "black"){
         return("boxBlk");
     }
-    if(colour == "grey"){
+    if(colour === "grey"){
         return("boxGry");
     }
-    if(colour == "carbon"){
+    if(colour === "carbon"){
         return("boxCrb");
     }
 
