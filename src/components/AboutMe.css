@@ -1,44 +1,83 @@
 .aboutbox {
-    float: left;
-    background-color: #ffffff;
-    width: 45%;
-    text-align: left;
-    text-indent: 5%;
-    font-size: 24px;
-    font-style: bold;
-    font-family: 'Baskerville';
-    padding: 1px;
-    margin-top: 7%;
-    margin-left: auto;
-    margin-right: auto;
-    color:white;
-    /* source: https://getcssscan.com/css-box-shadow-examples */
-  
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    border-radius: 8px;
-    background-image: url(../images/rock_bg.jpg);
-    background-repeat: repeat;
-  }
+  float: left;
+  background-color: #ffffff;
+  width: 45%;
+  text-align: left;
+  text-indent: 10%;
+  font-size: 24px;
+  font-style: bold;
+  font-family: "Baskerville";
+  padding: 1px;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  /* source: https://getcssscan.com/css-box-shadow-examples */
 
-  h3{
-    font-family:'Helvetica';
-  }
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 8px;
+  background-image: url(../images/rock_bg.jpg);
+  background-repeat: repeat;
+}
 
-  .photo {
-    float: right;
-    width: 35%;
-    margin-top: 2.4%
+.mobilebox {
+  float: center;
+  background-color: #ffffff;
+  width: 98%;
+  text-align: center;
+  font-size: 18px;
+  font-style: bold;
+  font-family: "Baskerville";
+  padding: 2%;
+  margin-top: 10%;
 
-  }
+  color: white;
+  /* source: https://getcssscan.com/css-box-shadow-examples */
 
-  .wrapper {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24%;
-   
-  }
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 8px;
+  background-image: url(../images/rock_bg.jpg);
+  background-repeat: repeat;
+}
+
+h3 {
+  font-family: "Helvetica";
+}
+
+h4 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  font-style: bold;
+}
+
+p#mobile {
+  margin-top: 150px;
+}
+
+.photo {
+  float: right;
+  width: 35%;
+  margin-top: 2.4%;
+}
+
+.photomobile {
+  float: center;
+  width: 35%;
+  margin-top: 10%;
+  margin-bottom: -80%;
+}
+
+.wrapper {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24%;
+}

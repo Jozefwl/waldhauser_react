@@ -24,18 +24,16 @@ let photo = {
 const Aboutbox = () => {
   return (
     <div className="wrapper">
-      <div className="aboutbox">
+      <div className="mobilebox">
         <p>Hello, I'm</p>
-        <h3>Jozef Waldhauser</h3>
+        <h4>Jozef Waldhauser</h4>
         <p>Student at Unicorn University, Prague</p>
-        
-      
       </div>
-      <div className="photo">
+      <div className="photomobile">
         <img
           alt="profile_picture"
-          width="100%"
-          height="100%"
+          width="285%"
+          height="285%"
           src={String(photo.url)}
         ></img>
       </div>

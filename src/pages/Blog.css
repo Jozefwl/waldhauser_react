@@ -1,7 +1,17 @@
 h1 {
-    font-family: 'Verdana';
+  font-family: "Verdana";
 }
 
 p#blog {
-    font-family: 'Verdana';
+  font-family: "Verdana";
+}
+
+p#blogmobile {
+  font-family: "Verdana";
+  padding: 2%;
+}
+
+#mobile {
+  font-size: 30px;
+  padding: 2%;
 }
