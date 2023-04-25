@@ -30,8 +30,8 @@ The *Socialsbar* component:
 - redirects user to social website he clicked on
 - uses CC0 icons, has a little animation on hover
 
-#Screenshot of the index page on desktop:
+# Screenshot of the index page on desktop:
 ![Picture of the index page of https://waldhauser.sk on DESKTOP](https://cloud.waldhauser.sk/index.php/s/eXDaZ25a5684Q7Z/download/website1.png)
 
-#Screenshot of the contact page on mobile:
+# Screenshot of the contact page on mobile:
 ![Picture of the contact page of https://waldhauser.sk on PHONE](https://cloud.waldhauser.sk/index.php/s/8mEAYAAoQAJZ7Nt/download/website2.png)
